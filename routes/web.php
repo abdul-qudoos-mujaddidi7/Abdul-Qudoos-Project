@@ -14,8 +14,6 @@ use function Pest\Laravel\delete;
 Route::view('home', 'home');
 Route::view('/contact', 'contact');
 
-Route::get("");
-
 Route::get('test',function(){
 
     $job=Job::first();
